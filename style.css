@@ -160,7 +160,7 @@ section .circle img {
 
 footer {
   color: white;
-  padding: 30px;
+  padding: 60px;
   font-size: 15px;
   text-align: justify;
   display: flex;
@@ -291,7 +291,7 @@ footer button:hover {
   }
 
   footer {
-    padding: 40px 65px;
+    padding: 60px 65px;
   }
 }
 
