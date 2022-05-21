@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Landing Page Watch-In</title>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.png" alt="logo origami Watch-in" class="logo" />
+      <i
+        class="bx bx-menu bx-md"
+        id="ico-menu"
+        style="color: white"
+        onclick="menuShow()"
+      ></i>
+      <ul class="menu" id="menu">
+        <li>
+          <i class="bx bx-home-alt-2"></i>
+          <p>Home</p>
+        </li>
+        <li>
+          <i class="bx bx-rocket"></i>
+          <p>Features</p>
+        </li>
+        <li>
+          <i class="bx bx-cart"></i>
+          <p>Shop</p>
+        </li>
+        <li>
+          <i class="bx bx-info-circle"></i>
+          <p>About</p>
+        </li>
+        <li>
+          <i class="bx bx-message-dots"></i>
+          <p>Contact</p>
+        </li>
+      </ul>
+    </header>
+    <div class="background"></div>
+    <main>
+      <div class="item" id="item1">
+        <div class="text" data-animate="left">
+          <h3>DESIGN</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
+            rerum molestiae debitis non incidunt vero odio natus maiores vel
+            nam! Quae optio rerum voluptatem cum alias!
+          </p>
+        </div>
+        <img
+          src="./assets/watch.jpg"
+          alt="relógio preto moderno"
+          data-animate="right"
+        />
+      </div>
+      <div class="item" id="item2">
+        <img
+          src="./assets/watch-back.jpg"
+          alt="relógio preto moderno"
+          data-animate="left"
+        />
+        <div class="text" data-animate="right">
+          <h3>CONFORT</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
+            rerum molestiae debitis non incidunt vero odio natus maiores vel
+            nam! Quae optio rerum voluptatem cum alias!
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <section data-animate="bottom">
+      <h2>THE BEST</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At cumque
+        libero, architecto possimus maxime tempora molestiae autem consequuntur
+        error fugiat tempore eaque odio unde nesciunt nobis perspiciatis
+        obcaecati harum. Doloremque.
+      </p>
+      <div class="images">
+        <div class="contain">
+          <div class="circle">
+            <img src="./assets/watch-apps.jpg" />
+          </div>
+          <span>TECHNOLOGY</span>
+        </div>
+        <div class="contain">
+          <div class="circle">
+            <img src="./assets/watch-use.jpg" />
+          </div>
+          <span>USABILITY</span>
+        </div>
+        <div class="contain">
+          <div class="circle">
+            <img src="./assets/watch-blue.jpg" />
+          </div>
+          <span>STYLE</span>
+        </div>
+      </div>
+    </section>
+
+    <footer data-animate="bottom">
+      <button>GET OUR PRODUCTS</button>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
+        incidunt vero ab earum. Maxime, unde laborum accusamus at dicta eaque
+        nam doloribus deleniti aliquid rem reiciendis vitae aliquam amet
+        dolorum?
+      </p>
+    </footer>
+
+    <script src="./vendor/menu.js"></script>
+    <script src="./vendor/animate-home.js"></script>
+  </body>
+</html>
