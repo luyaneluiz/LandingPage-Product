@@ -1,0 +1,16 @@
+header {
+  padding: 3px 10px;
+  background-color: rgba(0, 0, 0, 0.779);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 2;
+}
+
+header .logo {
+  height: 60px;
+}
